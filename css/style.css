@@ -5,6 +5,7 @@ html, body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
+	color: #000824;
 }
 
 img {
@@ -42,7 +43,15 @@ html, body{
 h1 {
 	font-family: 'Droid Sans', sans-serif;
 	font-size: 30pt;
-	color: #000824;
+	color: #071a36;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+h2 {
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 16pt;
+	color: #071a36;
 	text-transform: uppercase;
 	margin: 0;
 }
@@ -104,22 +113,20 @@ h1 {
 .headernav-center ul li {
 	display: table-cell;
 	padding: 3px 10px 2px 10px;
-	/*background-image: url(../images/bg-nav-seperator.png);*/
-	/*background-position: right;*/
-	/*background-repeat: no-repeat;*/
 }
 
-.headernav-center .selected {
-	background: url(../images/bg-nav-selected.png);
+.headernav-center .selected a {
+	color: #FFF;
+	/*background: url(../images/bg-nav-selected.png);*/
 }
 
 .headernav-center a {
-	color: #000824;
+	color: #071a36;
 	text-decoration: none;
 }
 
 .headernav-center a:hover {
-	color: #FFF;
+	color: #DDD;
 }
 
 .headernav-right {
@@ -164,3 +171,34 @@ h1 {
 /*subcontent for pages*/
 
 
+.subcontent {
+	margin-top: 30px;
+}
+.nieuwsblock {
+	width: 300px;
+	float: left;
+	margin-right:30px;
+}
+
+.laatsteopdrachtblock {
+	width: 300px;
+	float: left;
+	margin-right: 30px;
+}
+
+.klantenwoordblock {
+	width: 300px;
+	float: left;
+}
+
+.subcontent button {
+	width: 130px;
+	height: 25px;
+	border: 0;
+	background: #071a36;
+	color: #FFF;
+	font-size: 13pt;
+	font-weight: bold;
+	margin: 10px 0 0 0 ;
+	padding: 0;
+}
