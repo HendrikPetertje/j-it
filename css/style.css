@@ -129,7 +129,7 @@ h1 {
 	float: left;
 }
 
-/*snelcontact*/
+/*quickcontact*/
 .snelcontact {
 	float: right;
 	margin-top: -64px;
@@ -160,3 +160,7 @@ h1 {
 	text-align: center;
 	line-height: 200%;
 }
+
+/*subcontent for pages*/
+
+
