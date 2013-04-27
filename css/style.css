@@ -1,0 +1,162 @@
+/*Basic page elements*/
+
+html, body {
+	background-color: #f1f1f2;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+img {
+	border:0;
+}
+
+.cleardiv {
+	clear: both;
+}
+
+.horizonline {
+	height:3px;
+	background: url(../images/bg-horizonline.png) no-repeat;
+	margin-top: 25px;
+}
+
+::-moz-selection {
+       background-color: #a5cd39;
+       color: #FFF;
+}
+
+::selection {
+       background-color: #a5cd39;
+       color: #FFF;
+}
+
+/*text styles*/
+
+html, body{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 12pt;
+	font-color: #000;
+}
+
+h1 {
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 30pt;
+	color: #000824;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+/*containers*/
+
+.container {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.absolutebody {
+	position: absolute;
+}
+
+/*header*/
+.header {
+	background: url(../images/header.png) no-repeat;
+}
+
+.logo {
+	width:232px;
+	margin: 0 auto;
+	padding-top:93px;
+}
+
+/*navigation*/
+
+.headernav {
+	margin-top: -64px;
+	margin-left: -6px;
+	float: left;
+}
+
+.headernav-left {
+	width: 16px;
+	height: 30px;
+	background: url(../images/bg-nav-left.png) no-repeat;
+	float: left;
+}
+
+.headernav-center {
+	background: url(../images/bg-nav-normal.png) repeat-x;
+	float:left;
+}
+
+.headernav-center ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	height: 30px;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+
+.headernav-center ul li {
+	display: table-cell;
+	padding: 3px 10px 2px 10px;
+	/*background-image: url(../images/bg-nav-seperator.png);*/
+	/*background-position: right;*/
+	/*background-repeat: no-repeat;*/
+}
+
+.headernav-center .selected {
+	background: url(../images/bg-nav-selected.png);
+}
+
+.headernav-center a {
+	color: #000824;
+	text-decoration: none;
+}
+
+.headernav-center a:hover {
+	color: #FFF;
+}
+
+.headernav-right {
+	width: 16px;
+	height: 30px;
+	background: url(../images/bg-nav-right.png) no-repeat;
+	float: left;
+}
+
+/*snelcontact*/
+.snelcontact {
+	float: right;
+	margin-top: -64px;
+	margin-right: -19px;
+	position: absolute;
+	margin-left:780px;
+}
+
+.snelcontact-body {
+	width: 160px;
+	padding: 10px 15px 10px 15px;
+	background: url(../images/bg-contact-body.png) repeat-y;
+	display:none;
+}
+
+.snelcontact-button {
+	width: 170px;
+	padding: 0px 20px 15px 10px;
+	text-align: center;
+	font-weight: bold;
+	background: url(../images/bg-contact-button.png) no-repeat;
+	cursor: pointer;
+}
+
+.maincontent-home {
+	margin-top: 30px;
+	font-size: 15pt;
+	text-align: center;
+	line-height: 200%;
+}
