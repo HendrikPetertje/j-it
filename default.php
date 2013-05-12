@@ -110,6 +110,9 @@
 					Willem Loréstraat 138<br />
 					8921 CN Leeuwarden<br />
 					058-8436042<br />
+					KVK: 57841624 <br />
+					BTW: NL204573658B01<br />
+					<br/>
 				</div>
 
 				<div class="block footer-meta">

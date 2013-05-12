@@ -7,3 +7,10 @@ $('.snelcontact-button').click(function() {
 		}
 });
 
+$('.snelcontact-button').mouseover(function() {
+	$(this).css("color", "#DDD");
+}) 
+
+$('.snelcontact-button').mouseout(function() {
+	$(this).css("color", "#071a36");
+}) 

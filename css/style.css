@@ -87,7 +87,7 @@ h2 {
 .logo {
 	width:232px;
 	margin: 0 auto;
-	padding-top:93px;
+	padding-top:58px;
 }
 
 /*navigation*/
@@ -161,6 +161,7 @@ h2 {
 	padding: 10px 15px 10px 15px;
 	background: url(../images/bg-contact-body.png) repeat-y;
 	display:none;
+	font-size: 10pt;
 }
 
 .snelcontact-button {
