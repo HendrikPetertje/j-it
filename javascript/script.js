@@ -6,3 +6,4 @@ $('.snelcontact-button').click(function() {
 		$(".snelcontact-body").slideUp();
 		}
 });
+

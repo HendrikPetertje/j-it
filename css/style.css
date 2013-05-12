@@ -1,7 +1,7 @@
 /*Basic page elements*/
 
 html, body {
-	background-color: #f1f1f2;
+	background-color: #000824;
 	margin: 0;
 	padding: 0;
 	width: 100%;
@@ -30,6 +30,13 @@ img {
 ::selection {
        background-color: #a5cd39;
        color: #FFF;
+}
+
+.whitewrapper {
+	background-color: #f1f1f2;
+	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 /*text styles*/
@@ -119,7 +126,7 @@ h2 {
 	padding: 3px 10px 2px 10px;
 }
 
-.headernav-center .selected a {
+.headernav-center .nav-selected a {
 	color: #FFF;
 	/*background: url(../images/bg-nav-selected.png);*/
 }
@@ -165,11 +172,17 @@ h2 {
 	cursor: pointer;
 }
 
-.maincontent-home {
-	margin-top: 30px;
-	font-size: 15pt;
-	text-align: center;
-	line-height: 200%;
+.contactbutton {
+	/*width: 130px;*/
+	height: 25px;
+	border: 0;
+	background: #071a36;
+	color: #FFF;
+	font-size: 13pt;
+	font-weight: bold;
+	margin: 10px 0 0 0 ;
+	padding: 4px;
+	cursor: pointer;
 }
 
 /*subcontent for pages*/
@@ -178,6 +191,23 @@ h2 {
 .subcontent {
 	margin-top: 30px;
 }
+
+.maincontent-home {
+	margin-top: 30px;
+	font-size: 15pt;
+	text-align: center;
+	line-height: 200%;
+}
+
+.maincontent-pages {
+	margin-top: 30px;
+	font-size: 12pt;
+}
+
+.maincontent-pages h1 {
+	text-align: center;
+}
+
 .nieuwsblock {
 	width: 300px;
 	float: left;
@@ -221,7 +251,11 @@ h2 {
 	overflow: hidden;
 }
 
-.subcontent button {
+.meerbutton {
+	margin-top:10px;
+}
+
+.subcontent .button {
 	width: 130px;
 	height: 25px;
 	border: 0;
@@ -229,9 +263,9 @@ h2 {
 	color: #FFF;
 	font-size: 13pt;
 	font-weight: bold;
-	margin: 10px 0 0 0 ;
-	padding: 0;
+	padding: 5px;
 	cursor: pointer;
+	text-decoration: none;
 }
 
 .subcontent button:hover {
@@ -247,6 +281,16 @@ h2 {
 
 .footer-content {
 	color: #FFF;
+}
+
+.footer-content a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer-content a:hover {
+	color: #aaa;
+	text-decoration: none;
 }
 
 .footer-sitemap {
@@ -270,3 +314,7 @@ h2 {
 	float: left;
 	width: 300px;
 }
+
+/*.error {
+	display: none;
+}*/
